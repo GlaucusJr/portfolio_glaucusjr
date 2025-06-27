@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glaucus Junior | Portfolio</title>
+    <!-- ===== Icons ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <!-- ===== Social Bar ===== -->
+    <aside class="social-bar">
+      <a
+        href="https://www.linkedin.com/in/glaucus-junior-9683a4232/"
+        target="_blank"
+        aria-label="LinkedIn"
+      >
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/GlaucusJr" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="mailto:glaucus.junior@gmail.com" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a
+        href="https://wa.me/5561982040129"
+        target="_blank"
+        aria-label="WhatsApp"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </aside>
+    <!-- ===== Header / Nav ===== -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="brand">
+            <img
+              src="/Documentos/Perfil.jpeg"
+              alt="Photo of Glaucus Junior"
+              class="brand-photo"
+            />
+            Glaucus Junior
+          </div>
+          <ul class="nav-links">
+            <li><a href="#sobre">About</a></li>
+            <li><a href="#projetos">Projects</a></li>
+            <li><a href="#tecnologias">Technologies</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- ===== Main ===== -->
+    <main>
+      <button id="theme-toggle" aria-label="Toggle theme">🌑</button>
+      <canvas id="smoke-canvas"></canvas>
+      <!-- ===== Hero ===== -->
+      <section id="home">
+        <button id="translate-button" onclick="window.location.href='index.html'">
+          <img src="https://flagcdn.com/br.svg" alt="BR Flag" width="20" height="14" /> 
+          Português </button>
+        <h1>HELLO, I AM GLAUCUS JUNIOR</h1>
+        <p>
+          Full Stack Developer focused on building bridges between front-end and back-end, turning ideas into functional and impactful digital experiences.
+        </p>
+        <a href="#projetos" class="btn-primary">Projects</a>
+      </section>
+      <!-- ===== About ===== -->
+      <section id="sobre">
+        <h2>About Me</h2>
+        <p>
+          Hello! My name is Glaucus Junior, and I am a Full Stack Developer passionate about turning ideas into efficient, modern, and functional digital solutions. With training from Cubos Academy and ongoing Software Engineering studies, I have been building projects that combine performance, aesthetics, and great user experience.
+        </p>
+        <p>
+          Throughout my journey, I have developed complete web applications, handling both front-end and back-end, with expertise in technologies such as JavaScript, TypeScript, Node.js, React, Next.js, HTML, CSS, Postgres, Docker, and testing with Jest. I also have experience with Git version control and creating interfaces based on Figma prototypes.
+        </p>
+        <p>
+          I have an eye for detail, organization, and focus on delivering value. I enjoy writing clean code, continuously learning, and collaborating in multidisciplinary teams. Each project in my portfolio is an opportunity to demonstrate how I can contribute to solving real problems with technology.
+        </p>
+        <p>
+          If you are looking for someone committed, with good communication skills, who knows how to combine technical expertise with creativity, whether to join your team or develop a product from scratch, it will be a pleasure to talk!
+        </p>
+      </section>
+      <!-- ===== Projects ===== -->
+      <section id="projetos">
+        <h2>Projects</h2>
+        <div class="projects-wrapper">
+          <div class="project-card">
+            <img
+              src="/Documentos/Jogo_de_xadrez.jpeg"
+              alt="Chess Game"
+              class="project-photo" 
+            />
+            <h3>Chess Game</h3>
+            <p>
+              A classic chess game project made with TypeScript, HTML, and CSS. This web application renders the board and pieces with classic rules and serves as a base for future functionalities like movement, rules, capture, and checkmate.
+            </p>
+            <p>
+              <a href="#" class="btn-secondary" target="_blank">💻 View Project</a>
+              <a href="https://github.com/GlaucusJr/jogo_de_xadrez" class="btn-secondary" target="_blank"><img src="/Documentos/icons8-github-30 (1).png" alt="GitHub logo" class="project-logo"/>Code on GitHub</a>
+            </p>
+          </div>
+          <div class="project-card">
+            <img
+              src="/Documentos/Site_CuboEspresso.jpeg"
+              alt="CuboEspresso Site"
+              class="project-photo" 
+            />
+            <h3>CuboEspresso Site</h3>
+            <p>
+              This project is a virtual coffee store and also serves as a personal portfolio, developed with pure HTML, CSS, and JavaScript, focusing on DOM manipulation and frontend interactivity.
+            </p>
+            <p>
+              <a href="https://glaucusjr.github.io/site_cuboespresso/" class="btn-secondary" target="_blank">💻 View Project</a>
+              <a href="https://github.com/GlaucusJr/site_cuboespresso" class="btn-secondary" target="_blank"><img src="/Documentos/icons8-github-30 (1).png" alt="GitHub logo" class="project-logo"/>Code on GitHub</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Technologies ===== -->
+      <section id="tecnologias">
+        <h2>Technologies</h2>
+        <div class="tech-list-container">
+          <div class="tech-list-inner">
+            <div class="tech-item">
+              <img src="/Documentos/typescript.png" alt="TypeScript"/>
+              <span>TypeScript</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/js.png" alt="JavaScript"/>
+              <span>JavaScript</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/html-5.png" alt="HTML5"/>
+              <span>HTML5</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/css-3.png" alt="CSS3"/>
+              <span>CSS3</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/icons8-nó-js-48.png" alt="Node.js"/>
+              <span>Node.js</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/atom.png" alt="React"/>
+              <span>React</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/icons8-postgreesql-48.png" alt="PostgreSQL"/>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/docker.png" alt="Docker"/>
+              <span>Docker</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/social.png" alt="Git"/>
+              <span>Git</span>
+            </div>
+            <!-- ===== Duplicate Technologies (optional) ===== -->
+            <div class="tech-item">
+              <img src="/Documentos/typescript.png" alt="TypeScript"/>
+              <span>TypeScript</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/js.png" alt="JavaScript"/>
+              <span>JavaScript</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/html-5.png" alt="HTML5"/>
+              <span>HTML5</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/css-3.png" alt="CSS3"/>
+              <span>CSS3</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/icons8-nó-js-48.png" alt="Node.js"/>
+              <span>Node.js</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/atom.png" alt="React"/>
+              <span>React</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/icons8-postgreesql-48.png" alt="PostgreSQL"/>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/docker.png" alt="Docker"/>
+              <span>Docker</span>
+            </div>
+            <div class="tech-item">
+              <img src="/Documentos/social.png" alt="Git"/>
+              <span>Git</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ===== Footer ===== -->
+    <footer>
+      &copy; 2025 Glaucus Junior. All rights reserved.
+    </footer>
+    <!-- ===== Music Player ===== -->
+    <div id="music-player">
+      <span class="track-title">Bink's Sake – One Piece (Violin Cover)</span>
+      <button id="play-toggle" aria-label="Play/Pause">❚❚</button>
+      <input type="range" id="volume" min="0" max="100" value="20" aria-label="Volume"/>
+    </div>
+
+    <div id="yt-video"></div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+      let ytPlayer;
+      let fading = false;          
+      const TARGET_VOL = 20;       
+      const STEP       = 4;        
+      const TICK_MS    = 300;      
+
+      function onYouTubeIframeAPIReady() {
+          ytPlayer = new YT.Player("yt-video", {
+          height: "0",
+          width:  "0",
+          videoId: "bC4UvCRvOS8",
+          playerVars: { autoplay: 1, controls: 0, mute: 1 }, 
+          events:    { onReady: setupPlayer }
+          });
+      }
+
+      function setupPlayer() {
+          const playBtn   = document.getElementById("play-toggle");
+          const volumeCtl = document.getElementById("volume");
+
+          /* ===== Play/Pause Button ===== */
+          playBtn.addEventListener("click", () => {
+          if (ytPlayer.getPlayerState() === YT.PlayerState.PLAYING) {
+              ytPlayer.pauseVideo();
+              playBtn.textContent = "▶︎";
+          } else {
+              ytPlayer.playVideo();
+              playBtn.textContent = "❚❚";
+          }
+          });
+
+          /* ===== Volume slider ===== */
+          volumeCtl.addEventListener("input", e => {
+          ytPlayer.setVolume(e.target.value);
+          if (ytPlayer.isMuted()) ytPlayer.unMute();
+          });
+
+          /* ===== Start playback and fade-in ===== */
+          ytPlayer.playVideo();
+          fadeInAudio();
+      }
+
+      /* ============= FADE-IN FUNCTION ============= */
+      function fadeInAudio() {
+          if (fading) return;
+          fading = true;
+
+          ytPlayer.setVolume(0);
+          ytPlayer.unMute();
+
+          let currentVol = 0;
+          const handle = setInterval(() => {
+          currentVol += STEP;
+          if (currentVol >= TARGET_VOL) {
+              currentVol = TARGET_VOL;
+              clearInterval(handle);
+              fading = false;
+          }
+          ytPlayer.setVolume(currentVol);
+          document.getElementById("volume").value = currentVol;
+          }, TICK_MS);
+      }
+    </script>
+    <script>
+      const toggleBtn = document.getElementById("theme-toggle");
+
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme === "dark") {
+          document.body.classList.add("dark");
+          toggleBtn.textContent = "☀️";
+      }
+
+      toggleBtn.addEventListener("click", () => {
+          document.body.classList.toggle("dark");
+
+          const isDark = document.body.classList.contains("dark");
+          toggleBtn.textContent = isDark ? "☀️" : "🌑";
+          localStorage.setItem("theme", isDark ? "dark" : "light");
+      });
+    </script>
+    <script>
+      const canvas = document.getElementById("smoke-canvas");
+      const ctx = canvas.getContext("2d");
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      window.addEventListener("resize", () => {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      });
+
+      class SmokeParticle {
+        constructor() {
+          this.reset();
+        }
+
+        reset() {
+          this.x = Math.random() * canvas.width;
+          this.y = canvas.height + Math.random() * 100;
+          this.size = Math.random() * 80 + 40;
+          this.baseOpacity = Math.random() * 0.06 + 0.02;
+          this.speedY = Math.random() * 0.3 + 0.2;
+          this.speedX = (Math.random() - 0.5) * 0.2;
+        }
+
+        update() {
+          this.y -= this.speedY;
+          this.x += this.speedX;
+
+          if (this.y + this.size < canvas.height * 0.3) {
+            this.reset();
+          }
+        }
+
+        draw() {
+          const midPoint = canvas.height / 2;
+          const isDarkTheme = document.body.classList.contains("dark");
+
+          const baseColor = isDarkTheme ? 200 : 30;
+          let opacity = isDarkTheme
+            ? this.baseOpacity
+            : this.baseOpacity * 2.5; 
+
+          if (this.y < midPoint) {
+            const fadeFactor = (this.y - canvas.height * 0.3) / (midPoint - canvas.height * 0.3);
+            opacity *= Math.max(fadeFactor, 0);
+          }
+
+          const gradient = ctx.createRadialGradient(
+            this.x, this.y, 0,
+            this.x, this.y, this.size
+          );
+          gradient.addColorStop(0, `rgba(${baseColor}, ${baseColor}, ${baseColor}, ${opacity})`);
+          gradient.addColorStop(1, `rgba(${baseColor}, ${baseColor}, ${baseColor}, 0)`);
+
+          ctx.fillStyle = gradient;
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+
+      const particles = [];
+      for (let i = 0; i < 60; i++) {
+        particles.push(new SmokeParticle());
+      }
+
+      function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(p => {
+          p.update();
+          p.draw();
+        });
+        requestAnimationFrame(animate);
+      }
+
+      animate();
+    </script>
+    <script>
+      const translateBtn = document.getElementById('translate-button');
+      translateBtn.addEventListener('click', () => {
+        document.body.classList.add('fade-out');
+        const target = translateBtn.dataset.target;
+
+        setTimeout(() => {
+          window.location.href = target;
+        }, 500); // tempo da transição do CSS
+      });
+    </script>
+  </body>
+</html>
